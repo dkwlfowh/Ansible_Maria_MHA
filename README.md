@@ -32,7 +32,11 @@ git clone https://github.com/dkwlfowh/Ansible_Maria_MHA.git
 
 ## 4. ansible 서버에서 target 서버로 key 접속되도록
 [root@ansible maria]# cd /etc/ansible/roles/maria
+
+
 [root@ansible maria]# ansible-playbook key.yml -k root
+
+
 [root@ansible maria]# ansible dbservers -m ping
 
 
