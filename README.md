@@ -8,10 +8,9 @@ Ansible을 이용해서 Maria_10.2 MHA 를 구축한다.
 ##### /etc/ansible/roles/maria/templates/mha.cnf
 ##### /etc/ansible/roles/maria/templates/master_vip_up.sh 
 ##### /etc/ansible/roles/maria/templates/slave_vip_up.sh의 
-##### Hostname이 동일하게 되어있어야한다.
+##### 파일들의 Hostname이 동일하게 되어있어야한다.
 
 > 1. 압축해제
- - 
 
 
 
