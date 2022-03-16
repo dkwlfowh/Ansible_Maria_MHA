@@ -1,7 +1,7 @@
 # Ansible_Maria_MHA
 Maria_10.2 MHA 구축 
 
-Ansible을 이용해서 Maria_10.2 MHA 를 구축한다.
+Ansible을 이용해서 Cnet_OS Maria_10.2 MHA 를 구축한다. 원하는 다른 MariaDB 버전을 원한다면 /etc/ansible/roles/maria/templates/MariaDB.repo 수정하면 됨
 
 ### 순서
 ##### /etc/hosts, /etc/ansible/hosts
