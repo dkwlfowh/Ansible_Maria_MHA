@@ -10,11 +10,16 @@ Ansible을 이용해서 Cnet_OS Maria_10.2 MHA 를 구축한다. 원하는 다�
 ##### /etc/ansible/roles/maria/templates/master_vip_up.sh 
 ##### /etc/ansible/roles/maria/templates/slave_vip_up.sh
 ##### 파일들의 Hostname이 동일하게 되어있어야한다.
+##### /etc/ansible/roles/maria/vars/main/yml 확인
 
 
 ## 1. Anisble Server /etc/host 등록
 192.168.100.33 mysql1
+
+
 192.168.100.23 mysql2
+
+
 192.168.100.21 manager
 
 
